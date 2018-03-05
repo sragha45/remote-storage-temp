@@ -9,11 +9,15 @@ import { ROUTING } from "./app.routing";
 import { HomeComponent } from "./home/home.component";
 import { AboutComponent } from "./about/about.component";
 
+import { FetchDataService } from './fetch-data.service';
+import { SidenavComponent } from './sidenav/sidenav.component'
+
 @NgModule({
     declarations: [
         AppComponent,
         AboutComponent,
-        HomeComponent
+        HomeComponent,
+        SidenavComponent
     ],
     imports: [
         BrowserAnimationsModule,
